@@ -82,6 +82,68 @@
         label[for="industry"] {
   display: block;
 }
+        .footer {
+            background: #2a7d2e;
+            color: #fff;
+            padding: 30px 20px 20px 20px;
+            border-radius: 0 0 10px 10px;
+            margin-top: 40px;
+            font-size: 16px;
+        }
+        .footer-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 30px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .footer-section {
+            flex: 1 1 200px;
+            min-width: 180px;
+        }
+        .footer-section h3 {
+            color: #e8f5e9;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .footer-section ul li {
+            margin-bottom: 8px;
+        }
+        .footer-section a {
+            color: #b2ffb2;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .footer-section a:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+        .footer-social {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        .footer-social a {
+            color: #fff;
+            font-size: 22px;
+            transition: color 0.2s;
+        }
+        .footer-social a:hover {
+            color: #b2ffb2;
+        }
+        .footer-bottom {
+            text-align: center;
+            margin-top: 25px;
+            color: #b2ffb2;
+            font-size: 15px;
+        }
     </style>
 </head>
 <body>
@@ -122,7 +184,7 @@
             </form>
         </div>
         
-        <h2>🌱 What’s Inside the Report?</h2>
+        <h2>🌱 What's Inside the Report?</h2>
         <ul>
             <li>📊 Market growth trends & projections (2024-2030)</li>
             <li>🚜 AI & SaaS innovations in precision farming</li>
@@ -133,5 +195,32 @@
         
         <p>🚀 Stay ahead in Agritech innovation—download now!</p>
     </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>AgriTech Insights</h3>
+                <p>Empowering the Asia-Pacific region with the latest in agricultural technology, market trends, and innovation. Join us in shaping the future of sustainable farming.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul>
+                    <li>Email: <a href="mailto:info@agritechinsights.com">info@agritechinsights.com</a></li>
+                    <li>Phone: <a href="tel:+6512345678">+65 1234 5678</a></li>
+                    <li>Address: 123 Green Lane, Singapore 567890</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="footer-social">
+                    <a href="https://twitter.com/" target="_blank" aria-label="Twitter"><span style="font-family: Arial;">&#x1F426;</span></a>
+                    <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn"><span style="font-family: Arial;">&#x1F465;</span></a>
+                    <a href="https://facebook.com/" target="_blank" aria-label="Facebook"><span style="font-family: Arial;">&#x1F4F1;</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 AgriTech Insights. All rights reserved. | Designed for the Asia-Pacific Agritech Industry Report
+        </div>
+    </footer>
 </body>
 </html>
